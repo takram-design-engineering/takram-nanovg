@@ -1,0 +1,6 @@
+[submodule "lib/gtest"]
+	path = lib/gtest
+	url = https://chromium.googlesource.com/external/googletest
+[submodule "lib/nanovg"]
+	path = lib/nanovg
+	url = git@github.com:memononen/nanovg.git

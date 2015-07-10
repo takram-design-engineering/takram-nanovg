@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		935355D31B506BAC0018041F /* gl3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B585B31B4E666D009D7C5A /* gl3.h */; };
+		935355E11B506BAC0018041F /* gl3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B585B31B4E666D009D7C5A /* gl3.h */; };
+		935355E21B506BAC0018041F /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93B585B21B4E666D009D7C5A /* gl3.cc */; };
+		938D13B21B5091F700CCA57D /* libtakram_nanovg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938D13AF1B5091D100CCA57D /* libtakram_nanovg.a */; };
+		938D13B51B50920600CCA57D /* libtakram_nanovg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938D13AF1B5091D100CCA57D /* libtakram_nanovg.a */; };
+		938D13B81B50920D00CCA57D /* libtakram_nanovg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938D13AF1B5091D100CCA57D /* libtakram_nanovg.a */; };
+		938D13B91B50921100CCA57D /* libtakram_nanovg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938D13AF1B5091D100CCA57D /* libtakram_nanovg.a */; };
+		93B584EF1B4E655F009D7C5A /* gl2.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E4651B2C5359006EA047 /* gl2.h */; };
+		93B585091B4E6561009D7C5A /* gl2.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E4651B2C5359006EA047 /* gl2.h */; };
+		93B585B61B4E6688009D7C5A /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4641B2C5359006EA047 /* gl2.cc */; };
+		93B585B71B4E6689009D7C5A /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4641B2C5359006EA047 /* gl2.cc */; };
+		93B585B91B4E668C009D7C5A /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93B585B21B4E666D009D7C5A /* gl3.cc */; };
+		93B587FB1B4E7EC0009D7C5A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B585C81B4E7D1E009D7C5A /* OpenGL.framework */; };
+		93B587FC1B4E7EC3009D7C5A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B585C81B4E7D1E009D7C5A /* OpenGL.framework */; };
+		93B587FD1B4E7EC5009D7C5A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B585C81B4E7D1E009D7C5A /* OpenGL.framework */; };
+		93B587FE1B4E7EE9009D7C5A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B585C81B4E7D1E009D7C5A /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		938D13AE1B5091D100CCA57D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 938D13AA1B5091D100CCA57D /* nanovg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 93B5857D1B4E65B0009D7C5A;
+			remoteInfo = nanovg;
+		};
+		938D13B01B5091EE00CCA57D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 938D13AA1B5091D100CCA57D /* nanovg.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B585641B4E65B0009D7C5A;
+			remoteInfo = nanovg;
+		};
+		938D13B31B50920300CCA57D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 938D13AA1B5091D100CCA57D /* nanovg.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B585641B4E65B0009D7C5A;
+			remoteInfo = nanovg;
+		};
+		938D13B61B50920A00CCA57D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 938D13AA1B5091D100CCA57D /* nanovg.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B585641B4E65B0009D7C5A;
+			remoteInfo = nanovg;
+		};
+		938D13BA1B50921300CCA57D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 938D13AA1B5091D100CCA57D /* nanovg.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B585641B4E65B0009D7C5A;
+			remoteInfo = nanovg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		930955031A4FB1E200D09023 /* product.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = product.xcconfig; sourceTree = "<group>"; };
+		930955041A4FB1E200D09023 /* product_release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = product_release.xcconfig; sourceTree = "<group>"; };
+		930955051A4FB1E200D09023 /* product_debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = product_debug.xcconfig; sourceTree = "<group>"; };
+		930955061A4FB1E200D09023 /* product_test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = product_test.xcconfig; sourceTree = "<group>"; };
+		930959301A5062D400D09023 /* project_debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project_debug.xcconfig; sourceTree = "<group>"; };
+		930959311A5062D400D09023 /* project_release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project_release.xcconfig; sourceTree = "<group>"; };
+		930959321A5062D400D09023 /* project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project.xcconfig; sourceTree = "<group>"; };
+		938D13AA1B5091D100CCA57D /* nanovg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = nanovg.xcodeproj; sourceTree = "<group>"; };
+		93B584E11B4E6506009D7C5A /* dependencies.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = dependencies.xcconfig; sourceTree = "<group>"; };
+		93B584FB1B4E655F009D7C5A /* libtakram_nanovg_gl2.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtakram_nanovg_gl2.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B585151B4E6561009D7C5A /* libtakram_nanovg_gl2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtakram_nanovg_gl2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B585631B4E65AF009D7C5A /* libtakram_nanovg_gl3.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtakram_nanovg_gl3.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B5857D1B4E65B0009D7C5A /* libtakram_nanovg_gl3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtakram_nanovg_gl3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B585B21B4E666D009D7C5A /* gl3.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gl3.cc; sourceTree = "<group>"; };
+		93B585B31B4E666D009D7C5A /* gl3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gl3.h; sourceTree = "<group>"; };
+		93B585C81B4E7D1E009D7C5A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		93D7E4641B2C5359006EA047 /* gl2.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gl2.cc; sourceTree = "<group>"; };
+		93D7E4651B2C5359006EA047 /* gl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gl2.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93B584E81B4E655F009D7C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938D13B21B5091F700CCA57D /* libtakram_nanovg.a in Frameworks */,
+				93B587FE1B4E7EE9009D7C5A /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B585021B4E6561009D7C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938D13B51B50920600CCA57D /* libtakram_nanovg.a in Frameworks */,
+				93B587FD1B4E7EC5009D7C5A /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B585501B4E65AF009D7C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938D13B81B50920D00CCA57D /* libtakram_nanovg.a in Frameworks */,
+				93B587FC1B4E7EC3009D7C5A /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B5856A1B4E65B0009D7C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938D13B91B50921100CCA57D /* libtakram_nanovg.a in Frameworks */,
+				93B587FB1B4E7EC0009D7C5A /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		930955021A4FB1E200D09023 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				93B584E11B4E6506009D7C5A /* dependencies.xcconfig */,
+				930959321A5062D400D09023 /* project.xcconfig */,
+				930959301A5062D400D09023 /* project_debug.xcconfig */,
+				930959311A5062D400D09023 /* project_release.xcconfig */,
+				930955031A4FB1E200D09023 /* product.xcconfig */,
+				930955051A4FB1E200D09023 /* product_debug.xcconfig */,
+				930955041A4FB1E200D09023 /* product_release.xcconfig */,
+				930955061A4FB1E200D09023 /* product_test.xcconfig */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		938D13AB1B5091D100CCA57D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				938D13AF1B5091D100CCA57D /* libtakram_nanovg.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93B585C71B4E7D10009D7C5A /* linked frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93B585C81B4E7D1E009D7C5A /* OpenGL.framework */,
+			);
+			name = "linked frameworks";
+			sourceTree = "<group>";
+		};
+		93D7E38D1B2BCBEB006EA047 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				93D7E4601B2C5359006EA047 /* nanovg */,
+			);
+			name = src;
+			path = src/takram;
+			sourceTree = "<group>";
+		};
+		93D7E4601B2C5359006EA047 /* nanovg */ = {
+			isa = PBXGroup;
+			children = (
+				93D7E4651B2C5359006EA047 /* gl2.h */,
+				93D7E4641B2C5359006EA047 /* gl2.cc */,
+				93B585B31B4E666D009D7C5A /* gl3.h */,
+				93B585B21B4E666D009D7C5A /* gl3.cc */,
+			);
+			path = nanovg;
+			sourceTree = "<group>";
+		};
+		93F8AD6617C8B39800310877 = {
+			isa = PBXGroup;
+			children = (
+				93D7E38D1B2BCBEB006EA047 /* src */,
+				930955021A4FB1E200D09023 /* config */,
+				93B585C71B4E7D10009D7C5A /* linked frameworks */,
+				93F8AD7017C8B39800310877 /* products */,
+				938D13AA1B5091D100CCA57D /* nanovg.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		93F8AD7017C8B39800310877 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				93B584FB1B4E655F009D7C5A /* libtakram_nanovg_gl2.dylib */,
+				93B585151B4E6561009D7C5A /* libtakram_nanovg_gl2.a */,
+				93B585631B4E65AF009D7C5A /* libtakram_nanovg_gl3.dylib */,
+				93B5857D1B4E65B0009D7C5A /* libtakram_nanovg_gl3.a */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		93B584E91B4E655F009D7C5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B584EF1B4E655F009D7C5A /* gl2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B585031B4E6561009D7C5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B585091B4E6561009D7C5A /* gl2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B585511B4E65AF009D7C5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935355E11B506BAC0018041F /* gl3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B5856B1B4E65B0009D7C5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935355D31B506BAC0018041F /* gl3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		93B584E21B4E655F009D7C5A /* nanovg_gl2_shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B584F81B4E655F009D7C5A /* Build configuration list for PBXNativeTarget "nanovg_gl2_shared" */;
+			buildPhases = (
+				93B584E31B4E655F009D7C5A /* Sources */,
+				93B584E81B4E655F009D7C5A /* Frameworks */,
+				93B584E91B4E655F009D7C5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938D13B11B5091EE00CCA57D /* PBXTargetDependency */,
+			);
+			name = nanovg_gl2_shared;
+			productName = takram_triangulation;
+			productReference = 93B584FB1B4E655F009D7C5A /* libtakram_nanovg_gl2.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		93B584FC1B4E6561009D7C5A /* nanovg_gl2_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B585121B4E6561009D7C5A /* Build configuration list for PBXNativeTarget "nanovg_gl2_static" */;
+			buildPhases = (
+				93B584FD1B4E6561009D7C5A /* Sources */,
+				93B585021B4E6561009D7C5A /* Frameworks */,
+				93B585031B4E6561009D7C5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938D13B41B50920300CCA57D /* PBXTargetDependency */,
+			);
+			name = nanovg_gl2_static;
+			productName = sgss_opaque;
+			productReference = 93B585151B4E6561009D7C5A /* libtakram_nanovg_gl2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		93B5854A1B4E65AF009D7C5A /* nanovg_gl3_shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B585601B4E65AF009D7C5A /* Build configuration list for PBXNativeTarget "nanovg_gl3_shared" */;
+			buildPhases = (
+				93B5854B1B4E65AF009D7C5A /* Sources */,
+				93B585501B4E65AF009D7C5A /* Frameworks */,
+				93B585511B4E65AF009D7C5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938D13B71B50920A00CCA57D /* PBXTargetDependency */,
+			);
+			name = nanovg_gl3_shared;
+			productName = takram_triangulation;
+			productReference = 93B585631B4E65AF009D7C5A /* libtakram_nanovg_gl3.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		93B585641B4E65B0009D7C5A /* nanovg_gl3_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B5857A1B4E65B0009D7C5A /* Build configuration list for PBXNativeTarget "nanovg_gl3_static" */;
+			buildPhases = (
+				93B585651B4E65B0009D7C5A /* Sources */,
+				93B5856A1B4E65B0009D7C5A /* Frameworks */,
+				93B5856B1B4E65B0009D7C5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938D13BB1B50921300CCA57D /* PBXTargetDependency */,
+			);
+			name = nanovg_gl3_static;
+			productName = sgss_opaque;
+			productReference = 93B5857D1B4E65B0009D7C5A /* libtakram_nanovg_gl3.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93F8AD6717C8B39800310877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = sgss;
+			};
+			buildConfigurationList = 93F8AD6A17C8B39800310877 /* Build configuration list for PBXProject "nanovg_osx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93F8AD6617C8B39800310877;
+			productRefGroup = 93F8AD7017C8B39800310877 /* products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 938D13AB1B5091D100CCA57D /* Products */;
+					ProjectRef = 938D13AA1B5091D100CCA57D /* nanovg.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				93B584E21B4E655F009D7C5A /* nanovg_gl2_shared */,
+				93B584FC1B4E6561009D7C5A /* nanovg_gl2_static */,
+				93B5854A1B4E65AF009D7C5A /* nanovg_gl3_shared */,
+				93B585641B4E65B0009D7C5A /* nanovg_gl3_static */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		938D13AF1B5091D100CCA57D /* libtakram_nanovg.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtakram_nanovg.a;
+			remoteRef = 938D13AE1B5091D100CCA57D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93B584E31B4E655F009D7C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B585B61B4E6688009D7C5A /* gl2.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B584FD1B4E6561009D7C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B585B71B4E6689009D7C5A /* gl2.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B5854B1B4E65AF009D7C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935355E21B506BAC0018041F /* gl3.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B585651B4E65B0009D7C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B585B91B4E668C009D7C5A /* gl3.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		938D13B11B5091EE00CCA57D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanovg;
+			targetProxy = 938D13B01B5091EE00CCA57D /* PBXContainerItemProxy */;
+		};
+		938D13B41B50920300CCA57D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanovg;
+			targetProxy = 938D13B31B50920300CCA57D /* PBXContainerItemProxy */;
+		};
+		938D13B71B50920A00CCA57D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanovg;
+			targetProxy = 938D13B61B50920A00CCA57D /* PBXContainerItemProxy */;
+		};
+		938D13BB1B50921300CCA57D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanovg;
+			targetProxy = 938D13BA1B50921300CCA57D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93B584F91B4E655F009D7C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955051A4FB1E200D09023 /* product_debug.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = takram_nanovg_gl2;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		93B584FA1B4E655F009D7C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955041A4FB1E200D09023 /* product_release.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = takram_nanovg_gl2;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		93B585131B4E6561009D7C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955051A4FB1E200D09023 /* product_debug.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = takram_nanovg_gl2;
+			};
+			name = Debug;
+		};
+		93B585141B4E6561009D7C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955041A4FB1E200D09023 /* product_release.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = takram_nanovg_gl2;
+			};
+			name = Release;
+		};
+		93B585611B4E65AF009D7C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955051A4FB1E200D09023 /* product_debug.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = takram_nanovg_gl3;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		93B585621B4E65AF009D7C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955041A4FB1E200D09023 /* product_release.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = takram_nanovg_gl3;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		93B5857B1B4E65B0009D7C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955051A4FB1E200D09023 /* product_debug.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = takram_nanovg_gl3;
+			};
+			name = Debug;
+		};
+		93B5857C1B4E65B0009D7C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955041A4FB1E200D09023 /* product_release.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = takram_nanovg_gl3;
+			};
+			name = Release;
+		};
+		93F8AD7617C8B39800310877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930959301A5062D400D09023 /* project_debug.xcconfig */;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		93F8AD7717C8B39800310877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930959311A5062D400D09023 /* project_release.xcconfig */;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93B584F81B4E655F009D7C5A /* Build configuration list for PBXNativeTarget "nanovg_gl2_shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B584F91B4E655F009D7C5A /* Debug */,
+				93B584FA1B4E655F009D7C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B585121B4E6561009D7C5A /* Build configuration list for PBXNativeTarget "nanovg_gl2_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B585131B4E6561009D7C5A /* Debug */,
+				93B585141B4E6561009D7C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B585601B4E65AF009D7C5A /* Build configuration list for PBXNativeTarget "nanovg_gl3_shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B585611B4E65AF009D7C5A /* Debug */,
+				93B585621B4E65AF009D7C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B5857A1B4E65B0009D7C5A /* Build configuration list for PBXNativeTarget "nanovg_gl3_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B5857B1B4E65B0009D7C5A /* Debug */,
+				93B5857C1B4E65B0009D7C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F8AD6A17C8B39800310877 /* Build configuration list for PBXProject "nanovg_osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F8AD7617C8B39800310877 /* Debug */,
+				93F8AD7717C8B39800310877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93F8AD6717C8B39800310877 /* Project object */;
+}

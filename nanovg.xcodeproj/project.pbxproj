@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		935355CB1B506BA30018041F /* scope.h in Headers */ = {isa = PBXBuildFile; fileRef = 935355C71B506BA30018041F /* scope.h */; };
+		938D13D11B50928900CCA57D /* context.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4611B2C5359006EA047 /* context.cc */; };
+		938D13D21B50928900CCA57D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		938D13D31B50928900CCA57D /* nanovg.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4941B2C536C006EA047 /* nanovg.cc */; };
+		938D13D61B50928900CCA57D /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E4711B2C5359006EA047 /* types.h */; };
+		938D13D71B50928900CCA57D /* transform.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E4701B2C5359006EA047 /* transform.h */; };
+		938D13D81B50928900CCA57D /* nanovg.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E4951B2C536C006EA047 /* nanovg.h */; };
+		938D13D91B50928900CCA57D /* scope.h in Headers */ = {isa = PBXBuildFile; fileRef = 935355C71B506BA30018041F /* scope.h */; };
+		938D13DA1B50928900CCA57D /* scissor.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46B1B2C5359006EA047 /* scissor.h */; };
+		938D13DB1B50928900CCA57D /* context.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E4621B2C5359006EA047 /* context.h */; };
+		938D13DC1B50928900CCA57D /* paint.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E4681B2C5359006EA047 /* paint.h */; };
+		938D13DD1B50928900CCA57D /* text.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46F1B2C5359006EA047 /* text.h */; };
+		938D13DE1B50928900CCA57D /* state.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46C1B2C5359006EA047 /* state.h */; };
+		938D13DF1B50928900CCA57D /* style.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46E1B2C5359006EA047 /* style.h */; };
+		938D13E01B50928900CCA57D /* path.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46A1B2C5359006EA047 /* path.h */; };
+		93B585671B4E65B0009D7C5A /* context.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4611B2C5359006EA047 /* context.cc */; };
+		93B585681B4E65B0009D7C5A /* nanovg.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4941B2C536C006EA047 /* nanovg.cc */; };
+		93B5856C1B4E65B0009D7C5A /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E4711B2C5359006EA047 /* types.h */; };
+		93B5856E1B4E65B0009D7C5A /* transform.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E4701B2C5359006EA047 /* transform.h */; };
+		93B5856F1B4E65B0009D7C5A /* nanovg.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E4951B2C536C006EA047 /* nanovg.h */; };
+		93B585701B4E65B0009D7C5A /* scissor.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46B1B2C5359006EA047 /* scissor.h */; };
+		93B585721B4E65B0009D7C5A /* context.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E4621B2C5359006EA047 /* context.h */; };
+		93B585741B4E65B0009D7C5A /* paint.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E4681B2C5359006EA047 /* paint.h */; };
+		93B585751B4E65B0009D7C5A /* text.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46F1B2C5359006EA047 /* text.h */; };
+		93B585771B4E65B0009D7C5A /* state.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46C1B2C5359006EA047 /* state.h */; };
+		93B585781B4E65B0009D7C5A /* style.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46E1B2C5359006EA047 /* style.h */; };
+		93B585791B4E65B0009D7C5A /* path.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46A1B2C5359006EA047 /* path.h */; };
+		93B586DF1B4E7DA4009D7C5A /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		930955031A4FB1E200D09023 /* product.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = product.xcconfig; sourceTree = "<group>"; };
+		930955041A4FB1E200D09023 /* product_release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = product_release.xcconfig; sourceTree = "<group>"; };
+		930955051A4FB1E200D09023 /* product_debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = product_debug.xcconfig; sourceTree = "<group>"; };
+		930955061A4FB1E200D09023 /* product_test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = product_test.xcconfig; sourceTree = "<group>"; };
+		930959301A5062D400D09023 /* project_debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project_debug.xcconfig; sourceTree = "<group>"; };
+		930959311A5062D400D09023 /* project_release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project_release.xcconfig; sourceTree = "<group>"; };
+		930959321A5062D400D09023 /* project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project.xcconfig; sourceTree = "<group>"; };
+		935355C71B506BA30018041F /* scope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scope.h; sourceTree = "<group>"; };
+		938D13E41B50928900CCA57D /* libtakram_nanovg_ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtakram_nanovg_ios.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B584E11B4E6506009D7C5A /* dependencies.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = dependencies.xcconfig; sourceTree = "<group>"; };
+		93B5857D1B4E65B0009D7C5A /* libtakram_nanovg_osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtakram_nanovg_osx.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B586B51B4E7D77009D7C5A /* fontstash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fontstash.h; path = src/fontstash.h; sourceTree = "<group>"; };
+		93B586B61B4E7D77009D7C5A /* nanovg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = nanovg.c; path = src/nanovg.c; sourceTree = "<group>"; };
+		93B586B71B4E7D77009D7C5A /* nanovg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = nanovg.h; path = src/nanovg.h; sourceTree = "<group>"; };
+		93B586B81B4E7D77009D7C5A /* nanovg_gl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = nanovg_gl.h; path = src/nanovg_gl.h; sourceTree = "<group>"; };
+		93B586B91B4E7D77009D7C5A /* nanovg_gl_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = nanovg_gl_utils.h; path = src/nanovg_gl_utils.h; sourceTree = "<group>"; };
+		93B586BA1B4E7D77009D7C5A /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_image.h; path = src/stb_image.h; sourceTree = "<group>"; };
+		93B586BB1B4E7D77009D7C5A /* stb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_truetype.h; path = src/stb_truetype.h; sourceTree = "<group>"; };
+		93D7E4611B2C5359006EA047 /* context.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = context.cc; sourceTree = "<group>"; };
+		93D7E4621B2C5359006EA047 /* context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = context.h; sourceTree = "<group>"; };
+		93D7E4681B2C5359006EA047 /* paint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paint.h; sourceTree = "<group>"; };
+		93D7E46A1B2C5359006EA047 /* path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = path.h; sourceTree = "<group>"; };
+		93D7E46B1B2C5359006EA047 /* scissor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scissor.h; sourceTree = "<group>"; };
+		93D7E46C1B2C5359006EA047 /* state.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = state.h; sourceTree = "<group>"; };
+		93D7E46E1B2C5359006EA047 /* style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = style.h; sourceTree = "<group>"; };
+		93D7E46F1B2C5359006EA047 /* text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text.h; sourceTree = "<group>"; };
+		93D7E4701B2C5359006EA047 /* transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transform.h; sourceTree = "<group>"; };
+		93D7E4711B2C5359006EA047 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		93D7E4941B2C536C006EA047 /* nanovg.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nanovg.cc; sourceTree = "<group>"; };
+		93D7E4951B2C536C006EA047 /* nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		938D13D41B50928900CCA57D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B5856A1B4E65B0009D7C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		930955021A4FB1E200D09023 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				93B584E11B4E6506009D7C5A /* dependencies.xcconfig */,
+				930959321A5062D400D09023 /* project.xcconfig */,
+				930959301A5062D400D09023 /* project_debug.xcconfig */,
+				930959311A5062D400D09023 /* project_release.xcconfig */,
+				930955031A4FB1E200D09023 /* product.xcconfig */,
+				930955051A4FB1E200D09023 /* product_debug.xcconfig */,
+				930955041A4FB1E200D09023 /* product_release.xcconfig */,
+				930955061A4FB1E200D09023 /* product_test.xcconfig */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		93B585CB1B4E7D76009D7C5A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				93B5868C1B4E7D77009D7C5A /* nanovg */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		93B5868C1B4E7D77009D7C5A /* nanovg */ = {
+			isa = PBXGroup;
+			children = (
+				93B586B51B4E7D77009D7C5A /* fontstash.h */,
+				93B586B61B4E7D77009D7C5A /* nanovg.c */,
+				93B586B71B4E7D77009D7C5A /* nanovg.h */,
+				93B586B81B4E7D77009D7C5A /* nanovg_gl.h */,
+				93B586B91B4E7D77009D7C5A /* nanovg_gl_utils.h */,
+				93B586BA1B4E7D77009D7C5A /* stb_image.h */,
+				93B586BB1B4E7D77009D7C5A /* stb_truetype.h */,
+			);
+			path = nanovg;
+			sourceTree = "<group>";
+		};
+		93D7E38D1B2BCBEB006EA047 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				93D7E4951B2C536C006EA047 /* nanovg.h */,
+				93D7E4941B2C536C006EA047 /* nanovg.cc */,
+				93D7E4601B2C5359006EA047 /* nanovg */,
+			);
+			name = src;
+			path = src/takram;
+			sourceTree = "<group>";
+		};
+		93D7E4601B2C5359006EA047 /* nanovg */ = {
+			isa = PBXGroup;
+			children = (
+				93D7E4711B2C5359006EA047 /* types.h */,
+				93D7E4621B2C5359006EA047 /* context.h */,
+				93D7E4611B2C5359006EA047 /* context.cc */,
+				935355C71B506BA30018041F /* scope.h */,
+				93D7E46C1B2C5359006EA047 /* state.h */,
+				93D7E46E1B2C5359006EA047 /* style.h */,
+				93D7E4701B2C5359006EA047 /* transform.h */,
+				93D7E4681B2C5359006EA047 /* paint.h */,
+				93D7E46B1B2C5359006EA047 /* scissor.h */,
+				93D7E46A1B2C5359006EA047 /* path.h */,
+				93D7E46F1B2C5359006EA047 /* text.h */,
+			);
+			path = nanovg;
+			sourceTree = "<group>";
+		};
+		93F8AD6617C8B39800310877 = {
+			isa = PBXGroup;
+			children = (
+				93D7E38D1B2BCBEB006EA047 /* src */,
+				93B585CB1B4E7D76009D7C5A /* lib */,
+				930955021A4FB1E200D09023 /* config */,
+				93F8AD7017C8B39800310877 /* products */,
+			);
+			sourceTree = "<group>";
+		};
+		93F8AD7017C8B39800310877 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				93B5857D1B4E65B0009D7C5A /* libtakram_nanovg_osx.a */,
+				938D13E41B50928900CCA57D /* libtakram_nanovg_ios.a */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		938D13D51B50928900CCA57D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938D13D61B50928900CCA57D /* types.h in Headers */,
+				938D13D71B50928900CCA57D /* transform.h in Headers */,
+				938D13D81B50928900CCA57D /* nanovg.h in Headers */,
+				938D13D91B50928900CCA57D /* scope.h in Headers */,
+				938D13DA1B50928900CCA57D /* scissor.h in Headers */,
+				938D13DB1B50928900CCA57D /* context.h in Headers */,
+				938D13DC1B50928900CCA57D /* paint.h in Headers */,
+				938D13DD1B50928900CCA57D /* text.h in Headers */,
+				938D13DE1B50928900CCA57D /* state.h in Headers */,
+				938D13DF1B50928900CCA57D /* style.h in Headers */,
+				938D13E01B50928900CCA57D /* path.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B5856B1B4E65B0009D7C5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B5856C1B4E65B0009D7C5A /* types.h in Headers */,
+				93B5856E1B4E65B0009D7C5A /* transform.h in Headers */,
+				93B5856F1B4E65B0009D7C5A /* nanovg.h in Headers */,
+				935355CB1B506BA30018041F /* scope.h in Headers */,
+				93B585701B4E65B0009D7C5A /* scissor.h in Headers */,
+				93B585721B4E65B0009D7C5A /* context.h in Headers */,
+				93B585741B4E65B0009D7C5A /* paint.h in Headers */,
+				93B585751B4E65B0009D7C5A /* text.h in Headers */,
+				93B585771B4E65B0009D7C5A /* state.h in Headers */,
+				93B585781B4E65B0009D7C5A /* style.h in Headers */,
+				93B585791B4E65B0009D7C5A /* path.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		938D13CF1B50928900CCA57D /* nanovg_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938D13E11B50928900CCA57D /* Build configuration list for PBXNativeTarget "nanovg_ios" */;
+			buildPhases = (
+				938D13D01B50928900CCA57D /* Sources */,
+				938D13D41B50928900CCA57D /* Frameworks */,
+				938D13D51B50928900CCA57D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nanovg_ios;
+			productName = sgss_opaque;
+			productReference = 938D13E41B50928900CCA57D /* libtakram_nanovg_ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		93B585641B4E65B0009D7C5A /* nanovg_osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B5857A1B4E65B0009D7C5A /* Build configuration list for PBXNativeTarget "nanovg_osx" */;
+			buildPhases = (
+				93B585651B4E65B0009D7C5A /* Sources */,
+				93B5856A1B4E65B0009D7C5A /* Frameworks */,
+				93B5856B1B4E65B0009D7C5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nanovg_osx;
+			productName = sgss_opaque;
+			productReference = 93B5857D1B4E65B0009D7C5A /* libtakram_nanovg_osx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93F8AD6717C8B39800310877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = sgss;
+			};
+			buildConfigurationList = 93F8AD6A17C8B39800310877 /* Build configuration list for PBXProject "nanovg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93F8AD6617C8B39800310877;
+			productRefGroup = 93F8AD7017C8B39800310877 /* products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93B585641B4E65B0009D7C5A /* nanovg_osx */,
+				938D13CF1B50928900CCA57D /* nanovg_ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		938D13D01B50928900CCA57D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938D13D11B50928900CCA57D /* context.cc in Sources */,
+				938D13D21B50928900CCA57D /* nanovg.c in Sources */,
+				938D13D31B50928900CCA57D /* nanovg.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B585651B4E65B0009D7C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B585671B4E65B0009D7C5A /* context.cc in Sources */,
+				93B586DF1B4E7DA4009D7C5A /* nanovg.c in Sources */,
+				93B585681B4E65B0009D7C5A /* nanovg.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		938D13E21B50928900CCA57D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955051A4FB1E200D09023 /* product_debug.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "takram_$(PROJECT_NAME)_ios";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		938D13E31B50928900CCA57D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955041A4FB1E200D09023 /* product_release.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "takram_$(PROJECT_NAME)_ios";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		93B5857B1B4E65B0009D7C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955051A4FB1E200D09023 /* product_debug.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "takram_$(PROJECT_NAME)_osx";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		93B5857C1B4E65B0009D7C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955041A4FB1E200D09023 /* product_release.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "takram_$(PROJECT_NAME)_osx";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		93F8AD7617C8B39800310877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930959301A5062D400D09023 /* project_debug.xcconfig */;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		93F8AD7717C8B39800310877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930959311A5062D400D09023 /* project_release.xcconfig */;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		938D13E11B50928900CCA57D /* Build configuration list for PBXNativeTarget "nanovg_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938D13E21B50928900CCA57D /* Debug */,
+				938D13E31B50928900CCA57D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B5857A1B4E65B0009D7C5A /* Build configuration list for PBXNativeTarget "nanovg_osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B5857B1B4E65B0009D7C5A /* Debug */,
+				93B5857C1B4E65B0009D7C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F8AD6A17C8B39800310877 /* Build configuration list for PBXProject "nanovg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F8AD7617C8B39800310877 /* Debug */,
+				93F8AD7717C8B39800310877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93F8AD6717C8B39800310877 /* Project object */;
+}
