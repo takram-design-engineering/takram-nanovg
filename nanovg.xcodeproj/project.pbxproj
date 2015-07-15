@@ -22,10 +22,6 @@
 		938D13DE1B50928900CCA57D /* state.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46C1B2C5359006EA047 /* state.h */; };
 		938D13DF1B50928900CCA57D /* style.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46E1B2C5359006EA047 /* style.h */; };
 		938D13E01B50928900CCA57D /* path.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46A1B2C5359006EA047 /* path.h */; };
-		938D143A1B50957700CCA57D /* libtakram_nanovg_osx_gl2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938D141D1B50945500CCA57D /* libtakram_nanovg_osx_gl2.a */; };
-		938D14421B50958900CCA57D /* libtakram_nanovg_ios_gles2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938D14111B50945500CCA57D /* libtakram_nanovg_ios_gles2.a */; };
-		938D14451B50958F00CCA57D /* libtakram_nanovg_ios_gles2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938D14111B50945500CCA57D /* libtakram_nanovg_ios_gles2.a */; };
-		938D14461B5095BA00CCA57D /* libtakram_nanovg_osx_gl2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938D141D1B50945500CCA57D /* libtakram_nanovg_osx_gl2.a */; };
 		938D145C1B50969900CCA57D /* context.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4611B2C5359006EA047 /* context.cc */; };
 		938D145D1B50969900CCA57D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 		938D145E1B50969900CCA57D /* nanovg.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4941B2C536C006EA047 /* nanovg.cc */; };
@@ -54,10 +50,6 @@
 		938D148E1B50969B00CCA57D /* state.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46C1B2C5359006EA047 /* state.h */; };
 		938D148F1B50969B00CCA57D /* style.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46E1B2C5359006EA047 /* style.h */; };
 		938D14901B50969B00CCA57D /* path.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46A1B2C5359006EA047 /* path.h */; };
-		938D14971B5096C500CCA57D /* libtakram_nanovg_osx_gl3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938D14211B50945500CCA57D /* libtakram_nanovg_osx_gl3.a */; };
-		938D149A1B5096D000CCA57D /* libtakram_nanovg_osx_gl3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938D14211B50945500CCA57D /* libtakram_nanovg_osx_gl3.a */; };
-		938D149D1B5096DD00CCA57D /* libtakram_nanovg_ios_gles3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938D14151B50945500CCA57D /* libtakram_nanovg_ios_gles3.a */; };
-		938D14A01B5096E200CCA57D /* libtakram_nanovg_ios_gles3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938D14151B50945500CCA57D /* libtakram_nanovg_ios_gles3.a */; };
 		93944D771B5097DB00FE57FE /* nanovg.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E4951B2C536C006EA047 /* nanovg.h */; };
 		93944D781B5097DB00FE57FE /* nanovg.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4941B2C536C006EA047 /* nanovg.cc */; };
 		93944D791B5097DB00FE57FE /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E4711B2C5359006EA047 /* types.h */; };
@@ -123,94 +115,43 @@
 		93B585781B4E65B0009D7C5A /* style.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46E1B2C5359006EA047 /* style.h */; };
 		93B585791B4E65B0009D7C5A /* path.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7E46A1B2C5359006EA047 /* path.h */; };
 		93B586DF1B4E7DA4009D7C5A /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		93F858E21B56570F00C32E8D /* gles2.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858DE1B56570F00C32E8D /* gles2.h */; };
+		93F858E31B56570F00C32E8D /* gles2.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858DE1B56570F00C32E8D /* gles2.h */; };
+		93F858E41B56570F00C32E8D /* gles2.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858DE1B56570F00C32E8D /* gles2.h */; };
+		93F858E51B56570F00C32E8D /* gles2.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858DE1B56570F00C32E8D /* gles2.h */; };
+		93F858E61B56570F00C32E8D /* gles2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858DF1B56570F00C32E8D /* gles2.cc */; };
+		93F858E71B56570F00C32E8D /* gles2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858DF1B56570F00C32E8D /* gles2.cc */; };
+		93F858E81B56570F00C32E8D /* gles2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858DF1B56570F00C32E8D /* gles2.cc */; };
+		93F858E91B56570F00C32E8D /* gles2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858DF1B56570F00C32E8D /* gles2.cc */; };
+		93F858EA1B56570F00C32E8D /* gles3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858E01B56570F00C32E8D /* gles3.h */; };
+		93F858EB1B56570F00C32E8D /* gles3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858E01B56570F00C32E8D /* gles3.h */; };
+		93F858EC1B56570F00C32E8D /* gles3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858E01B56570F00C32E8D /* gles3.h */; };
+		93F858ED1B56570F00C32E8D /* gles3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858E01B56570F00C32E8D /* gles3.h */; };
+		93F858EE1B56570F00C32E8D /* gles3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858E11B56570F00C32E8D /* gles3.cc */; };
+		93F858EF1B56570F00C32E8D /* gles3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858E11B56570F00C32E8D /* gles3.cc */; };
+		93F858F01B56570F00C32E8D /* gles3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858E11B56570F00C32E8D /* gles3.cc */; };
+		93F858F11B56570F00C32E8D /* gles3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858E11B56570F00C32E8D /* gles3.cc */; };
+		93F858F61B56571700C32E8D /* gl2.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858F21B56571700C32E8D /* gl2.h */; };
+		93F858F71B56571700C32E8D /* gl2.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858F21B56571700C32E8D /* gl2.h */; };
+		93F858F81B56571700C32E8D /* gl2.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858F21B56571700C32E8D /* gl2.h */; };
+		93F858F91B56571700C32E8D /* gl2.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858F21B56571700C32E8D /* gl2.h */; };
+		93F858FA1B56571700C32E8D /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F31B56571700C32E8D /* gl2.cc */; };
+		93F858FB1B56571700C32E8D /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F31B56571700C32E8D /* gl2.cc */; };
+		93F858FC1B56571700C32E8D /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F31B56571700C32E8D /* gl2.cc */; };
+		93F858FD1B56571700C32E8D /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F31B56571700C32E8D /* gl2.cc */; };
+		93F858FE1B56571700C32E8D /* gl3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858F41B56571700C32E8D /* gl3.h */; };
+		93F858FF1B56571700C32E8D /* gl3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858F41B56571700C32E8D /* gl3.h */; };
+		93F859001B56571700C32E8D /* gl3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858F41B56571700C32E8D /* gl3.h */; };
+		93F859011B56571700C32E8D /* gl3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858F41B56571700C32E8D /* gl3.h */; };
+		93F859021B56571700C32E8D /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F51B56571700C32E8D /* gl3.cc */; };
+		93F859031B56571700C32E8D /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F51B56571700C32E8D /* gl3.cc */; };
+		93F859041B56571700C32E8D /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F51B56571700C32E8D /* gl3.cc */; };
+		93F859051B56571700C32E8D /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F51B56571700C32E8D /* gl3.cc */; };
+		93F859061B56575100C32E8D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		93F859071B56575200C32E8D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		93F859081B56575200C32E8D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		93F859091B56575200C32E8D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		938D14101B50945500CCA57D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 938D14021B50945500CCA57D /* nanovg_ios.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 93B585491B4E6573009D7C5A;
-			remoteInfo = nanovg_gles2_static;
-		};
-		938D14141B50945500CCA57D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 938D14021B50945500CCA57D /* nanovg_ios.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 93B585B11B4E65B2009D7C5A;
-			remoteInfo = nanovg_gles3_static;
-		};
-		938D141C1B50945500CCA57D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 938D14061B50945500CCA57D /* nanovg_osx.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 93B585151B4E6561009D7C5A;
-			remoteInfo = nanovg_gl2_static;
-		};
-		938D14201B50945500CCA57D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 938D14061B50945500CCA57D /* nanovg_osx.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 93B5857D1B4E65B0009D7C5A;
-			remoteInfo = nanovg_gl3_static;
-		};
-		938D14381B50957300CCA57D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 938D14061B50945500CCA57D /* nanovg_osx.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 93B584FC1B4E6561009D7C5A;
-			remoteInfo = nanovg_gl2;
-		};
-		938D143D1B50957F00CCA57D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 938D14061B50945500CCA57D /* nanovg_osx.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 93B584FC1B4E6561009D7C5A;
-			remoteInfo = nanovg_gl2;
-		};
-		938D14431B50958D00CCA57D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 938D14021B50945500CCA57D /* nanovg_ios.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 93B585301B4E6573009D7C5A;
-			remoteInfo = nanovg_gles2;
-		};
-		938D14951B5096C100CCA57D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 938D14061B50945500CCA57D /* nanovg_osx.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 93B585641B4E65B0009D7C5A;
-			remoteInfo = nanovg_osx_gl3;
-		};
-		938D14981B5096CC00CCA57D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 938D14061B50945500CCA57D /* nanovg_osx.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 93B585641B4E65B0009D7C5A;
-			remoteInfo = nanovg_osx_gl3;
-		};
-		938D149B1B5096DB00CCA57D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 938D14021B50945500CCA57D /* nanovg_ios.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 93B585981B4E65B2009D7C5A;
-			remoteInfo = nanovg_ios_gles3;
-		};
-		938D149E1B5096E000CCA57D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 938D14021B50945500CCA57D /* nanovg_ios.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 93B585981B4E65B2009D7C5A;
-			remoteInfo = nanovg_ios_gles3;
-		};
-		93944DAB1B50980200FE57FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 938D14021B50945500CCA57D /* nanovg_ios.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 93B585301B4E6573009D7C5A;
-			remoteInfo = nanovg_ios_gles2;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		930955031A4FB1E200D09023 /* product.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = product.xcconfig; sourceTree = "<group>"; };
@@ -222,8 +163,6 @@
 		930959321A5062D400D09023 /* project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project.xcconfig; sourceTree = "<group>"; };
 		935355C71B506BA30018041F /* scope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scope.h; sourceTree = "<group>"; };
 		938D13E41B50928900CCA57D /* libtakram_nanovg_gles2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtakram_nanovg_gles2.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		938D14021B50945500CCA57D /* nanovg_ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = nanovg_ios.xcodeproj; sourceTree = "<group>"; };
-		938D14061B50945500CCA57D /* nanovg_osx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = nanovg_osx.xcodeproj; sourceTree = "<group>"; };
 		938D14261B50949200CCA57D /* libtakram_nanovg_gl2.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtakram_nanovg_gl2.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		938D14311B5094FD00CCA57D /* libtakram_nanovg_gles2.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtakram_nanovg_gles2.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		938D14551B50969700CCA57D /* libtakram_nanovg_gl3.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtakram_nanovg_gl3.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -251,6 +190,14 @@
 		93D7E4711B2C5359006EA047 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
 		93D7E4941B2C536C006EA047 /* nanovg.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nanovg.cc; sourceTree = "<group>"; };
 		93D7E4951B2C536C006EA047 /* nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg.h; sourceTree = "<group>"; };
+		93F858DE1B56570F00C32E8D /* gles2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gles2.h; sourceTree = "<group>"; };
+		93F858DF1B56570F00C32E8D /* gles2.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gles2.cc; sourceTree = "<group>"; };
+		93F858E01B56570F00C32E8D /* gles3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gles3.h; sourceTree = "<group>"; };
+		93F858E11B56570F00C32E8D /* gles3.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gles3.cc; sourceTree = "<group>"; };
+		93F858F21B56571700C32E8D /* gl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gl2.h; sourceTree = "<group>"; };
+		93F858F31B56571700C32E8D /* gl2.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gl2.cc; sourceTree = "<group>"; };
+		93F858F41B56571700C32E8D /* gl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gl3.h; sourceTree = "<group>"; };
+		93F858F51B56571700C32E8D /* gl3.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gl3.cc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,7 +205,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938D14451B50958F00CCA57D /* libtakram_nanovg_ios_gles2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +212,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938D143A1B50957700CCA57D /* libtakram_nanovg_osx_gl2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +219,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938D14421B50958900CCA57D /* libtakram_nanovg_ios_gles2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +226,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938D14971B5096C500CCA57D /* libtakram_nanovg_osx_gl3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +233,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938D149A1B5096D000CCA57D /* libtakram_nanovg_osx_gl3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +240,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938D149D1B5096DD00CCA57D /* libtakram_nanovg_ios_gles3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +247,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938D14A01B5096E200CCA57D /* libtakram_nanovg_ios_gles3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +254,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938D14461B5095BA00CCA57D /* libtakram_nanovg_osx_gl2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,24 +273,6 @@
 				930955061A4FB1E200D09023 /* product_test.xcconfig */,
 			);
 			path = config;
-			sourceTree = "<group>";
-		};
-		938D14031B50945500CCA57D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				938D14111B50945500CCA57D /* libtakram_nanovg_ios_gles2.a */,
-				938D14151B50945500CCA57D /* libtakram_nanovg_ios_gles3.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		938D14071B50945500CCA57D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				938D141D1B50945500CCA57D /* libtakram_nanovg_osx_gl2.a */,
-				938D14211B50945500CCA57D /* libtakram_nanovg_osx_gl3.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		93B585CB1B4E7D76009D7C5A /* lib */ = {
@@ -401,6 +322,14 @@
 				93D7E46B1B2C5359006EA047 /* scissor.h */,
 				93D7E46A1B2C5359006EA047 /* path.h */,
 				93D7E46F1B2C5359006EA047 /* text.h */,
+				93F858F21B56571700C32E8D /* gl2.h */,
+				93F858F31B56571700C32E8D /* gl2.cc */,
+				93F858F41B56571700C32E8D /* gl3.h */,
+				93F858F51B56571700C32E8D /* gl3.cc */,
+				93F858DE1B56570F00C32E8D /* gles2.h */,
+				93F858DF1B56570F00C32E8D /* gles2.cc */,
+				93F858E01B56570F00C32E8D /* gles3.h */,
+				93F858E11B56570F00C32E8D /* gles3.cc */,
 			);
 			path = nanovg;
 			sourceTree = "<group>";
@@ -412,8 +341,6 @@
 				93B585CB1B4E7D76009D7C5A /* lib */,
 				930955021A4FB1E200D09023 /* config */,
 				93F8AD7017C8B39800310877 /* products */,
-				938D14021B50945500CCA57D /* nanovg_ios.xcodeproj */,
-				938D14061B50945500CCA57D /* nanovg_osx.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -445,6 +372,8 @@
 				938D13D91B50928900CCA57D /* scope.h in Headers */,
 				938D13DA1B50928900CCA57D /* scissor.h in Headers */,
 				938D13DB1B50928900CCA57D /* context.h in Headers */,
+				93F858EB1B56570F00C32E8D /* gles3.h in Headers */,
+				93F858E31B56570F00C32E8D /* gles2.h in Headers */,
 				938D13DC1B50928900CCA57D /* paint.h in Headers */,
 				938D13DD1B50928900CCA57D /* text.h in Headers */,
 				938D13DE1B50928900CCA57D /* state.h in Headers */,
@@ -457,12 +386,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F858F61B56571700C32E8D /* gl2.h in Headers */,
 				93944DA51B5097DD00FE57FE /* style.h in Headers */,
 				93944DA81B5097DD00FE57FE /* scissor.h in Headers */,
 				93944DA71B5097DD00FE57FE /* paint.h in Headers */,
 				93944DA61B5097DD00FE57FE /* transform.h in Headers */,
 				93944DA11B5097DD00FE57FE /* context.h in Headers */,
 				93944DA91B5097DD00FE57FE /* path.h in Headers */,
+				93F858FE1B56571700C32E8D /* gl3.h in Headers */,
 				93944DAA1B5097DD00FE57FE /* text.h in Headers */,
 				93944DA01B5097DD00FE57FE /* types.h in Headers */,
 				93944D9E1B5097DD00FE57FE /* nanovg.h in Headers */,
@@ -481,6 +412,8 @@
 				93944D8C1B5097DC00FE57FE /* transform.h in Headers */,
 				93944D871B5097DC00FE57FE /* context.h in Headers */,
 				93944D8F1B5097DC00FE57FE /* path.h in Headers */,
+				93F858EA1B56570F00C32E8D /* gles3.h in Headers */,
+				93F858E21B56570F00C32E8D /* gles2.h in Headers */,
 				93944D901B5097DC00FE57FE /* text.h in Headers */,
 				93944D861B5097DC00FE57FE /* types.h in Headers */,
 				93944D841B5097DC00FE57FE /* nanovg.h in Headers */,
@@ -493,12 +426,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F858F81B56571700C32E8D /* gl2.h in Headers */,
 				93944D981B5097DC00FE57FE /* style.h in Headers */,
 				93944D9B1B5097DC00FE57FE /* scissor.h in Headers */,
 				93944D9A1B5097DC00FE57FE /* paint.h in Headers */,
 				93944D991B5097DC00FE57FE /* transform.h in Headers */,
 				93944D941B5097DC00FE57FE /* context.h in Headers */,
 				93944D9C1B5097DC00FE57FE /* path.h in Headers */,
+				93F859001B56571700C32E8D /* gl3.h in Headers */,
 				93944D9D1B5097DC00FE57FE /* text.h in Headers */,
 				93944D931B5097DC00FE57FE /* types.h in Headers */,
 				93944D911B5097DC00FE57FE /* nanovg.h in Headers */,
@@ -511,12 +446,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F858F91B56571700C32E8D /* gl2.h in Headers */,
 				938D14621B50969900CCA57D /* types.h in Headers */,
 				938D14631B50969900CCA57D /* transform.h in Headers */,
 				938D14641B50969900CCA57D /* nanovg.h in Headers */,
 				938D14651B50969900CCA57D /* scope.h in Headers */,
 				938D14661B50969900CCA57D /* scissor.h in Headers */,
 				938D14671B50969900CCA57D /* context.h in Headers */,
+				93F859011B56571700C32E8D /* gl3.h in Headers */,
 				938D14681B50969900CCA57D /* paint.h in Headers */,
 				938D14691B50969900CCA57D /* text.h in Headers */,
 				938D146A1B50969900CCA57D /* state.h in Headers */,
@@ -535,6 +472,8 @@
 				93944D7F1B5097DB00FE57FE /* transform.h in Headers */,
 				93944D7A1B5097DB00FE57FE /* context.h in Headers */,
 				93944D821B5097DB00FE57FE /* path.h in Headers */,
+				93F858EC1B56570F00C32E8D /* gles3.h in Headers */,
+				93F858E41B56570F00C32E8D /* gles2.h in Headers */,
 				93944D831B5097DB00FE57FE /* text.h in Headers */,
 				93944D791B5097DB00FE57FE /* types.h in Headers */,
 				93944D771B5097DB00FE57FE /* nanovg.h in Headers */,
@@ -553,6 +492,8 @@
 				938D14891B50969B00CCA57D /* scope.h in Headers */,
 				938D148A1B50969B00CCA57D /* scissor.h in Headers */,
 				938D148B1B50969B00CCA57D /* context.h in Headers */,
+				93F858ED1B56570F00C32E8D /* gles3.h in Headers */,
+				93F858E51B56570F00C32E8D /* gles2.h in Headers */,
 				938D148C1B50969B00CCA57D /* paint.h in Headers */,
 				938D148D1B50969B00CCA57D /* text.h in Headers */,
 				938D148E1B50969B00CCA57D /* state.h in Headers */,
@@ -565,12 +506,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F858F71B56571700C32E8D /* gl2.h in Headers */,
 				93B5856C1B4E65B0009D7C5A /* types.h in Headers */,
 				93B5856E1B4E65B0009D7C5A /* transform.h in Headers */,
 				93B5856F1B4E65B0009D7C5A /* nanovg.h in Headers */,
 				935355CB1B506BA30018041F /* scope.h in Headers */,
 				93B585701B4E65B0009D7C5A /* scissor.h in Headers */,
 				93B585721B4E65B0009D7C5A /* context.h in Headers */,
+				93F858FF1B56571700C32E8D /* gl3.h in Headers */,
 				93B585741B4E65B0009D7C5A /* paint.h in Headers */,
 				93B585751B4E65B0009D7C5A /* text.h in Headers */,
 				93B585771B4E65B0009D7C5A /* state.h in Headers */,
@@ -593,7 +536,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				938D14441B50958D00CCA57D /* PBXTargetDependency */,
 			);
 			name = nanovg_gles2_static;
 			productName = sgss_opaque;
@@ -611,7 +553,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				938D14391B50957300CCA57D /* PBXTargetDependency */,
 			);
 			name = nanovg_gl2_shared;
 			productName = nanovg_gl2;
@@ -629,7 +570,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				93944DAC1B50980200FE57FE /* PBXTargetDependency */,
 			);
 			name = nanovg_gles2_shared;
 			productName = nanovg_gl2;
@@ -647,7 +587,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				938D14961B5096C100CCA57D /* PBXTargetDependency */,
 			);
 			name = nanovg_gl3_shared;
 			productName = nanovg_gl2;
@@ -665,7 +604,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				938D14991B5096CC00CCA57D /* PBXTargetDependency */,
 			);
 			name = nanovg_gl3_static;
 			productName = sgss_opaque;
@@ -683,7 +621,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				938D149C1B5096DB00CCA57D /* PBXTargetDependency */,
 			);
 			name = nanovg_gles3_shared;
 			productName = nanovg_gl2;
@@ -701,7 +638,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				938D149F1B5096E000CCA57D /* PBXTargetDependency */,
 			);
 			name = nanovg_gles3_static;
 			productName = sgss_opaque;
@@ -719,7 +655,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				938D143E1B50957F00CCA57D /* PBXTargetDependency */,
 			);
 			name = nanovg_gl2_static;
 			productName = sgss_opaque;
@@ -750,16 +685,6 @@
 			mainGroup = 93F8AD6617C8B39800310877;
 			productRefGroup = 93F8AD7017C8B39800310877 /* products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 938D14031B50945500CCA57D /* Products */;
-					ProjectRef = 938D14021B50945500CCA57D /* nanovg_ios.xcodeproj */;
-				},
-				{
-					ProductGroup = 938D14071B50945500CCA57D /* Products */;
-					ProjectRef = 938D14061B50945500CCA57D /* nanovg_osx.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				938D14251B50949200CCA57D /* nanovg_gl2_shared */,
@@ -774,43 +699,14 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		938D14111B50945500CCA57D /* libtakram_nanovg_ios_gles2.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libtakram_nanovg_ios_gles2.a;
-			remoteRef = 938D14101B50945500CCA57D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		938D14151B50945500CCA57D /* libtakram_nanovg_ios_gles3.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libtakram_nanovg_ios_gles3.a;
-			remoteRef = 938D14141B50945500CCA57D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		938D141D1B50945500CCA57D /* libtakram_nanovg_osx_gl2.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libtakram_nanovg_osx_gl2.a;
-			remoteRef = 938D141C1B50945500CCA57D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		938D14211B50945500CCA57D /* libtakram_nanovg_osx_gl3.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libtakram_nanovg_osx_gl3.a;
-			remoteRef = 938D14201B50945500CCA57D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
 		938D13D01B50928900CCA57D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				938D13D11B50928900CCA57D /* context.cc in Sources */,
+				93F858EF1B56570F00C32E8D /* gles3.cc in Sources */,
+				93F858E71B56570F00C32E8D /* gles2.cc in Sources */,
 				938D13D21B50928900CCA57D /* nanovg.c in Sources */,
 				938D13D31B50928900CCA57D /* nanovg.cc in Sources */,
 			);
@@ -820,8 +716,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F859021B56571700C32E8D /* gl3.cc in Sources */,
 				93944D9F1B5097DD00FE57FE /* nanovg.cc in Sources */,
+				93F859091B56575200C32E8D /* nanovg.c in Sources */,
 				93944DA21B5097DD00FE57FE /* context.cc in Sources */,
+				93F858FA1B56571700C32E8D /* gl2.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -831,6 +730,9 @@
 			files = (
 				93944D851B5097DC00FE57FE /* nanovg.cc in Sources */,
 				93944D881B5097DC00FE57FE /* context.cc in Sources */,
+				93F859071B56575200C32E8D /* nanovg.c in Sources */,
+				93F858EE1B56570F00C32E8D /* gles3.cc in Sources */,
+				93F858E61B56570F00C32E8D /* gles2.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -838,8 +740,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F859041B56571700C32E8D /* gl3.cc in Sources */,
 				93944D921B5097DC00FE57FE /* nanovg.cc in Sources */,
+				93F859081B56575200C32E8D /* nanovg.c in Sources */,
 				93944D951B5097DC00FE57FE /* context.cc in Sources */,
+				93F858FC1B56571700C32E8D /* gl2.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -847,9 +752,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F859051B56571700C32E8D /* gl3.cc in Sources */,
 				938D145C1B50969900CCA57D /* context.cc in Sources */,
 				938D145D1B50969900CCA57D /* nanovg.c in Sources */,
 				938D145E1B50969900CCA57D /* nanovg.cc in Sources */,
+				93F858FD1B56571700C32E8D /* gl2.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -859,6 +766,9 @@
 			files = (
 				93944D781B5097DB00FE57FE /* nanovg.cc in Sources */,
 				93944D7B1B5097DB00FE57FE /* context.cc in Sources */,
+				93F859061B56575100C32E8D /* nanovg.c in Sources */,
+				93F858F01B56570F00C32E8D /* gles3.cc in Sources */,
+				93F858E81B56570F00C32E8D /* gles2.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,6 +777,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				938D14801B50969B00CCA57D /* context.cc in Sources */,
+				93F858F11B56570F00C32E8D /* gles3.cc in Sources */,
+				93F858E91B56570F00C32E8D /* gles2.cc in Sources */,
 				938D14811B50969B00CCA57D /* nanovg.c in Sources */,
 				938D14821B50969B00CCA57D /* nanovg.cc in Sources */,
 			);
@@ -876,56 +788,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F859031B56571700C32E8D /* gl3.cc in Sources */,
 				93B585671B4E65B0009D7C5A /* context.cc in Sources */,
 				93B586DF1B4E7DA4009D7C5A /* nanovg.c in Sources */,
 				93B585681B4E65B0009D7C5A /* nanovg.cc in Sources */,
+				93F858FB1B56571700C32E8D /* gl2.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		938D14391B50957300CCA57D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = nanovg_gl2;
-			targetProxy = 938D14381B50957300CCA57D /* PBXContainerItemProxy */;
-		};
-		938D143E1B50957F00CCA57D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = nanovg_gl2;
-			targetProxy = 938D143D1B50957F00CCA57D /* PBXContainerItemProxy */;
-		};
-		938D14441B50958D00CCA57D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = nanovg_gles2;
-			targetProxy = 938D14431B50958D00CCA57D /* PBXContainerItemProxy */;
-		};
-		938D14961B5096C100CCA57D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = nanovg_osx_gl3;
-			targetProxy = 938D14951B5096C100CCA57D /* PBXContainerItemProxy */;
-		};
-		938D14991B5096CC00CCA57D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = nanovg_osx_gl3;
-			targetProxy = 938D14981B5096CC00CCA57D /* PBXContainerItemProxy */;
-		};
-		938D149C1B5096DB00CCA57D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = nanovg_ios_gles3;
-			targetProxy = 938D149B1B5096DB00CCA57D /* PBXContainerItemProxy */;
-		};
-		938D149F1B5096E000CCA57D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = nanovg_ios_gles3;
-			targetProxy = 938D149E1B5096E000CCA57D /* PBXContainerItemProxy */;
-		};
-		93944DAC1B50980200FE57FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = nanovg_ios_gles2;
-			targetProxy = 93944DAB1B50980200FE57FE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		938D13E21B50928900CCA57D /* Debug */ = {
@@ -960,6 +831,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				INSTALL_PATH = "@rpath";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					OpenGL,
+				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl2";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -974,6 +850,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				INSTALL_PATH = "@rpath";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					OpenGL,
+				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl2";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -988,6 +869,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				INSTALL_PATH = "@rpath";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					OpenGLES,
+				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gles2";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1002,6 +888,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				INSTALL_PATH = "@rpath";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					OpenGLES,
+				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gles2";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1016,6 +907,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				INSTALL_PATH = "@rpath";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					OpenGL,
+				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl3";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1030,6 +926,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				INSTALL_PATH = "@rpath";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					OpenGL,
+				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl3";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1068,6 +969,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				INSTALL_PATH = "@rpath";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					OpenGLES,
+				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gles3";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1082,6 +988,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				INSTALL_PATH = "@rpath";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					OpenGLES,
+				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gles3";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
