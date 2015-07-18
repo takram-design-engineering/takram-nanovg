@@ -121,14 +121,10 @@
 		93F858E51B56570F00C32E8D /* gles2.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858DE1B56570F00C32E8D /* gles2.h */; };
 		93F858E61B56570F00C32E8D /* gles2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858DF1B56570F00C32E8D /* gles2.cc */; };
 		93F858E71B56570F00C32E8D /* gles2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858DF1B56570F00C32E8D /* gles2.cc */; };
-		93F858E81B56570F00C32E8D /* gles2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858DF1B56570F00C32E8D /* gles2.cc */; };
-		93F858E91B56570F00C32E8D /* gles2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858DF1B56570F00C32E8D /* gles2.cc */; };
 		93F858EA1B56570F00C32E8D /* gles3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858E01B56570F00C32E8D /* gles3.h */; };
 		93F858EB1B56570F00C32E8D /* gles3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858E01B56570F00C32E8D /* gles3.h */; };
 		93F858EC1B56570F00C32E8D /* gles3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858E01B56570F00C32E8D /* gles3.h */; };
 		93F858ED1B56570F00C32E8D /* gles3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858E01B56570F00C32E8D /* gles3.h */; };
-		93F858EE1B56570F00C32E8D /* gles3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858E11B56570F00C32E8D /* gles3.cc */; };
-		93F858EF1B56570F00C32E8D /* gles3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858E11B56570F00C32E8D /* gles3.cc */; };
 		93F858F01B56570F00C32E8D /* gles3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858E11B56570F00C32E8D /* gles3.cc */; };
 		93F858F11B56570F00C32E8D /* gles3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858E11B56570F00C32E8D /* gles3.cc */; };
 		93F858F61B56571700C32E8D /* gl2.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858F21B56571700C32E8D /* gl2.h */; };
@@ -137,19 +133,15 @@
 		93F858F91B56571700C32E8D /* gl2.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858F21B56571700C32E8D /* gl2.h */; };
 		93F858FA1B56571700C32E8D /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F31B56571700C32E8D /* gl2.cc */; };
 		93F858FB1B56571700C32E8D /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F31B56571700C32E8D /* gl2.cc */; };
-		93F858FC1B56571700C32E8D /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F31B56571700C32E8D /* gl2.cc */; };
-		93F858FD1B56571700C32E8D /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F31B56571700C32E8D /* gl2.cc */; };
 		93F858FE1B56571700C32E8D /* gl3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858F41B56571700C32E8D /* gl3.h */; };
 		93F858FF1B56571700C32E8D /* gl3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858F41B56571700C32E8D /* gl3.h */; };
 		93F859001B56571700C32E8D /* gl3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858F41B56571700C32E8D /* gl3.h */; };
 		93F859011B56571700C32E8D /* gl3.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F858F41B56571700C32E8D /* gl3.h */; };
-		93F859021B56571700C32E8D /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F51B56571700C32E8D /* gl3.cc */; };
-		93F859031B56571700C32E8D /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F51B56571700C32E8D /* gl3.cc */; };
 		93F859041B56571700C32E8D /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F51B56571700C32E8D /* gl3.cc */; };
 		93F859051B56571700C32E8D /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F51B56571700C32E8D /* gl3.cc */; };
 		93F859061B56575100C32E8D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 		93F859071B56575200C32E8D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
-		93F859081B56575200C32E8D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		93F859081B56575200C32E8D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; };
 		93F859091B56575200C32E8D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 /* End PBXBuildFile section */
 
@@ -705,10 +697,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				938D13D11B50928900CCA57D /* context.cc in Sources */,
-				93F858EF1B56570F00C32E8D /* gles3.cc in Sources */,
-				93F858E71B56570F00C32E8D /* gles2.cc in Sources */,
-				938D13D21B50928900CCA57D /* nanovg.c in Sources */,
 				938D13D31B50928900CCA57D /* nanovg.cc in Sources */,
+				938D13D21B50928900CCA57D /* nanovg.c in Sources */,
+				93F858E71B56570F00C32E8D /* gles2.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,10 +707,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F859021B56571700C32E8D /* gl3.cc in Sources */,
+				93944DA21B5097DD00FE57FE /* context.cc in Sources */,
 				93944D9F1B5097DD00FE57FE /* nanovg.cc in Sources */,
 				93F859091B56575200C32E8D /* nanovg.c in Sources */,
-				93944DA21B5097DD00FE57FE /* context.cc in Sources */,
 				93F858FA1B56571700C32E8D /* gl2.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -728,10 +718,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93944D851B5097DC00FE57FE /* nanovg.cc in Sources */,
 				93944D881B5097DC00FE57FE /* context.cc in Sources */,
+				93944D851B5097DC00FE57FE /* nanovg.cc in Sources */,
 				93F859071B56575200C32E8D /* nanovg.c in Sources */,
-				93F858EE1B56570F00C32E8D /* gles3.cc in Sources */,
 				93F858E61B56570F00C32E8D /* gles2.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -740,11 +729,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F859041B56571700C32E8D /* gl3.cc in Sources */,
+				93944D951B5097DC00FE57FE /* context.cc in Sources */,
 				93944D921B5097DC00FE57FE /* nanovg.cc in Sources */,
 				93F859081B56575200C32E8D /* nanovg.c in Sources */,
-				93944D951B5097DC00FE57FE /* context.cc in Sources */,
-				93F858FC1B56571700C32E8D /* gl2.cc in Sources */,
+				93F859041B56571700C32E8D /* gl3.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -752,11 +740,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F859051B56571700C32E8D /* gl3.cc in Sources */,
 				938D145C1B50969900CCA57D /* context.cc in Sources */,
-				938D145D1B50969900CCA57D /* nanovg.c in Sources */,
 				938D145E1B50969900CCA57D /* nanovg.cc in Sources */,
-				93F858FD1B56571700C32E8D /* gl2.cc in Sources */,
+				938D145D1B50969900CCA57D /* nanovg.c in Sources */,
+				93F859051B56571700C32E8D /* gl3.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -764,11 +751,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93944D781B5097DB00FE57FE /* nanovg.cc in Sources */,
 				93944D7B1B5097DB00FE57FE /* context.cc in Sources */,
+				93944D781B5097DB00FE57FE /* nanovg.cc in Sources */,
 				93F859061B56575100C32E8D /* nanovg.c in Sources */,
 				93F858F01B56570F00C32E8D /* gles3.cc in Sources */,
-				93F858E81B56570F00C32E8D /* gles2.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,10 +763,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				938D14801B50969B00CCA57D /* context.cc in Sources */,
-				93F858F11B56570F00C32E8D /* gles3.cc in Sources */,
-				93F858E91B56570F00C32E8D /* gles2.cc in Sources */,
-				938D14811B50969B00CCA57D /* nanovg.c in Sources */,
 				938D14821B50969B00CCA57D /* nanovg.cc in Sources */,
+				938D14811B50969B00CCA57D /* nanovg.c in Sources */,
+				93F858F11B56570F00C32E8D /* gles3.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,10 +773,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F859031B56571700C32E8D /* gl3.cc in Sources */,
 				93B585671B4E65B0009D7C5A /* context.cc in Sources */,
-				93B586DF1B4E7DA4009D7C5A /* nanovg.c in Sources */,
 				93B585681B4E65B0009D7C5A /* nanovg.cc in Sources */,
+				93B586DF1B4E7DA4009D7C5A /* nanovg.c in Sources */,
 				93F858FB1B56571700C32E8D /* gl2.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -837,7 +821,7 @@
 					OpenGL,
 				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl2";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.10;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -856,7 +840,7 @@
 					OpenGL,
 				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl2";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.10;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -913,7 +897,7 @@
 					OpenGL,
 				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl3";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.10;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -932,7 +916,7 @@
 					OpenGL,
 				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl3";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.10;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -945,7 +929,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl3";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.10;
 			};
 			name = Debug;
 		};
@@ -957,7 +941,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl3";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.10;
 			};
 			name = Release;
 		};
@@ -1031,7 +1015,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl2";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.10;
 			};
 			name = Debug;
 		};
@@ -1043,7 +1027,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl2";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.10;
 			};
 			name = Release;
 		};
