@@ -142,7 +142,8 @@ inline std::pair<Real, Rect> textBounds(const std::string& text) {
   return textBounds(Real(), Real(), text);
 }
 
-inline std::pair<Real, Rect> textBounds(Real x, Real y, const std::string& text) {
+inline std::pair<Real, Rect> textBounds(Real x, Real y,
+                                        const std::string& text) {
   std::pair<Real, Rect> result;
   struct { Real xmin; Real ymin; Real xmax; Real ymax; } values;
   result.first = nvgTextBounds(Context::current(), x, y,
@@ -152,7 +153,8 @@ inline std::pair<Real, Rect> textBounds(Real x, Real y, const std::string& text)
   return std::move(result);
 }
 
-inline std::pair<Real, Rect> textBounds(const Vec& vec, const std::string& text) {
+inline std::pair<Real, Rect> textBounds(const Vec& vec,
+                                        const std::string& text) {
   return textBounds(vec.x, vec.y, text);
 }
 

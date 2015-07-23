@@ -28,6 +28,15 @@
 #ifndef TAKRAM_NANOVG_H_
 #define TAKRAM_NANOVG_H_
 
+namespace takram {
+namespace nanovg {
+
+extern const double version_number;
+extern const unsigned char version_string[];
+
+}  // namespace nanovg
+}  // namespace takram
+
 #include "nanovg.h"  // For convenience
 
 #include "takram/nanovg/context.h"

@@ -25,3 +25,12 @@
 //
 
 #include "takram/nanovg.h"
+
+namespace takram {
+namespace nanovg {
+
+const double version_number = 1.0;
+const unsigned char version_string[] = "1.0";
+
+}  // namespace nanovg
+}  // namespace takram
