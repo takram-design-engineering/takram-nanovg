@@ -1025,7 +1025,6 @@
 					OpenGL,
 				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl2";
-				SDKROOT = macosx10.10;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1044,7 +1043,6 @@
 					OpenGL,
 				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl2";
-				SDKROOT = macosx10.10;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -1101,7 +1099,6 @@
 					OpenGL,
 				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl3";
-				SDKROOT = macosx10.10;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1120,7 +1117,6 @@
 					OpenGL,
 				);
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl3";
-				SDKROOT = macosx10.10;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -1133,7 +1129,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl3";
-				SDKROOT = macosx10.10;
 			};
 			name = Debug;
 		};
@@ -1145,7 +1140,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl3";
-				SDKROOT = macosx10.10;
 			};
 			name = Release;
 		};
@@ -1219,7 +1213,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl2";
-				SDKROOT = macosx10.10;
 			};
 			name = Debug;
 		};
@@ -1231,7 +1224,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "takram_$(PROJECT_NAME)_gl2";
-				SDKROOT = macosx10.10;
 			};
 			name = Release;
 		};
@@ -1241,6 +1233,7 @@
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = "";
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.10;
 			};
 			name = Debug;
 		};
@@ -1249,7 +1242,7 @@
 			baseConfigurationReference = 930959311A5062D400D09023 /* project_release.xcconfig */;
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = "";
-				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.10;
 			};
 			name = Release;
 		};
