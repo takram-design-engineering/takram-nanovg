@@ -34,6 +34,8 @@
 #include <stack>
 #include <utility>
 
+#include "takram/math/size.h"
+
 namespace takram {
 namespace nanovg {
 
@@ -61,6 +63,7 @@ class Context final {
 
   // Controlling frame
   void begin(int width, int height, float scale = 1.0);
+  void begin(const Size2i& size, float scale = 1.0);
   void cancel();
   void end();
 
@@ -123,6 +126,10 @@ inline void Context::begin(int width, int height, float scale) {
   assert(context_);
   nvgBeginFrame(context_, width, height, scale);
   stack().push(context_);
+}
+
+inline void Context::begin(const Size2i& size, float scale) {
+  begin(size.width, size.height, scale);
 }
 
 inline void Context::cancel() {
