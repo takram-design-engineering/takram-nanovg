@@ -25,4 +25,4 @@
 //
 
 // Search Paths
-HEADER_SEARCH_PATHS = $(inherited) "$(PROJECT_DIR)/src" "$(PROJECT_DIR)/lib" "$(PROJECT_DIR)/lib/nanovg/src"
+USER_HEADER_SEARCH_PATHS = $(inherited) "$(PROJECT_DIR)/src" "$(PROJECT_DIR)/lib" "$(PROJECT_DIR)/lib/nanovg/src"
