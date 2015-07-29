@@ -46,7 +46,7 @@ int findFont(const std::string& name);
 // Font settings
 void fontSize(Real size);
 void fontBlur(Real blur);
-  
+
 // Text settings
 void textLetterSpacing(Real spacing);
 void textLineHeight(Real height);
@@ -60,7 +60,7 @@ void fontFace(const std::string& font);
 Real text(const std::string& text);
 Real text(Real x, Real y, const std::string& text);
 Real text(const Vec& vec, const std::string& text);
-  
+
 // Text box
 void textBox(Real width, const std::string& text);
 void textBox(Real x, Real y, Real width, const std::string& text);
