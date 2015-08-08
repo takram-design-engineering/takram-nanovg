@@ -30,7 +30,7 @@
 
 #include "nanovg.h"
 
-#include "takram/math/rect.h"
+#include "takram/math/rectangle.h"
 #include "takram/math/size.h"
 #include "takram/math/vector.h"
 
@@ -38,9 +38,9 @@ namespace takram {
 namespace nanovg {
 
 using Real = float;
-using Vec = math::Vec2<Real>;
-using Size = math::Size2<Real>;
-using Rect = math::Rect<Real>;
+using Vec = Vec2<Real>;
+using Size = Size2<Real>;
+using Rect = Rect2<Real>;
 
 using Color = NVGcolor;
 using Paint = NVGpaint;
