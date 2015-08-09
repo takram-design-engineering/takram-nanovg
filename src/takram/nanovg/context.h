@@ -28,11 +28,11 @@
 #ifndef TAKRAM_NANOVG_CONTEXT_H_
 #define TAKRAM_NANOVG_CONTEXT_H_
 
-#include "nanovg.h"
-
 #include <cassert>
 #include <stack>
 #include <utility>
+
+#include "nanovg.h"
 
 #include "takram/math/size.h"
 
@@ -50,8 +50,8 @@ class Context final {
   ~Context();
 
   // Disallow copy semantics
-  Context(const Context& other) = delete;
-  Context& operator=(const Context& other) = delete;
+  Context(const Context&) = delete;
+  Context& operator=(const Context&) = delete;
 
   // Move semantics
   Context(Context&& other);

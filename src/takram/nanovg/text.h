@@ -179,4 +179,4 @@ namespace nvg = nanovg;
 
 }  // namespace takram
 
-#endif  // TAKRAM_NANOVG_STYLE_H_
+#endif  // TAKRAM_NANOVG_TEXT_H_

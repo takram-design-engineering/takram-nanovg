@@ -42,8 +42,8 @@ class Scope final {
   ~Scope();
 
   // Disallow copy semantics
-  Scope(const Scope& other) = delete;
-  Scope& operator=(const Scope& other) = delete;
+  Scope(const Scope&) = delete;
+  Scope& operator=(const Scope&) = delete;
 
  private:
   NVGcontext *context_;
