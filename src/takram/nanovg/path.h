@@ -1,7 +1,7 @@
 //
 //  takram/nanovg/path.h
 //
-//  MIT License
+//  The MIT License
 //
 //  Copyright (C) 2015 Shota Matsuda
 //

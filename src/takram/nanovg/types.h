@@ -1,7 +1,7 @@
 //
 //  takram/nanovg/types.h
 //
-//  MIT License
+//  The MIT License
 //
 //  Copyright (C) 2015 Shota Matsuda
 //
@@ -73,6 +73,15 @@ enum Align {
   MIDDLE = NVG_ALIGN_MIDDLE,
   BOTTOM = NVG_ALIGN_BOTTOM,
   BASELINE = NVG_ALIGN_BASELINE,
+};
+
+enum ImageFlag {
+  GENERATE_MIPMAPS = NVG_IMAGE_GENERATE_MIPMAPS,
+  REPEAT_X = NVG_IMAGE_REPEATX,
+  REPEAT_Y = NVG_IMAGE_REPEATY,
+  REPEAT = REPEAT_X | REPEAT_Y,
+  FLIPY = NVG_IMAGE_FLIPY,
+  PREMULTIPLIED = NVG_IMAGE_PREMULTIPLIED
 };
 
 }  // namespace nanovg

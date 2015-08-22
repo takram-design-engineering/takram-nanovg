@@ -1,7 +1,7 @@
 //
 //  takram/nanovg/gles2.cc
 //
-//  MIT License
+//  The MIT License
 //
 //  Copyright (C) 2015 Shota Matsuda
 //
