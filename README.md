@@ -1,10 +1,15 @@
-Nanovg
+NanoVG
 ======
 
-Work in progress...
+Provides for a few C++ utility types and build targets for using [NanoVG](https://github.com/memononen/nanovg).
 
-[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
+[![Build Status](https://travis-ci.org/takram-design-engineering/takram-nanovg.svg)](https://travis-ci.org/takram-design-engineering/takram-nanovg) [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
 )](http://mit-license.org)
+
+## Classes
+
+- [`takram::nanovg::Context`](src/takram/nanovg/context.h)
+- [`takram::nanovg::Scope`](src/takram/nanovg/scope.h)
 
 ## Setup Guide
 
