@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		936AC4111CB4FC5D00D7363F /* test.cc in Sources */ = {isa = PBXBuildFile; fileRef = 936AC4031CB4FC1B00D7363F /* test.cc */; };
+		936AC4141CB4FC7400D7363F /* libtakram_nanovg_gl3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 938D14551B50969700CCA57D /* libtakram_nanovg_gl3.dylib */; };
 		938D13D21B50928900CCA57D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 		938D13D31B50928900CCA57D /* nanovg.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4941B2C536C006EA047 /* nanovg.cc */; };
 		938D145D1B50969900CCA57D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
@@ -23,9 +25,19 @@
 		93F858FB1B56571700C32E8D /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F31B56571700C32E8D /* gl2.cc */; };
 		93F859041B56571700C32E8D /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F51B56571700C32E8D /* gl3.cc */; };
 		93F859051B56571700C32E8D /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F51B56571700C32E8D /* gl3.cc */; };
-		93F859081B56575200C32E8D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; };
+		93F859081B56575200C32E8D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 		93F859091B56575200C32E8D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		936AC4121CB4FC7000D7363F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93F8AD6717C8B39800310877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 938D144B1B50969700CCA57D;
+			remoteInfo = nanovg_gl3_shared;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		930955031A4FB1E200D09023 /* product.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = product.xcconfig; sourceTree = "<group>"; };
@@ -34,6 +46,8 @@
 		930959311A5062D400D09023 /* project_release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project_release.xcconfig; sourceTree = "<group>"; };
 		930959321A5062D400D09023 /* project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project.xcconfig; sourceTree = "<group>"; };
 		935355C71B506BA30018041F /* scope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scope.h; sourceTree = "<group>"; };
+		936AC4031CB4FC1B00D7363F /* test.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cc; sourceTree = "<group>"; };
+		936AC40A1CB4FC4000D7363F /* nanovg_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = nanovg_test; sourceTree = BUILT_PRODUCTS_DIR; };
 		938D13E41B50928900CCA57D /* libtakram_nanovg_gles2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtakram_nanovg_gles2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		938D14261B50949200CCA57D /* libtakram_nanovg_gl2.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtakram_nanovg_gl2.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		938D14551B50969700CCA57D /* libtakram_nanovg_gl3.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtakram_nanovg_gl3.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +75,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		936AC4071CB4FC4000D7363F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936AC4141CB4FC7400D7363F /* libtakram_nanovg_gl3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		938D13D41B50928900CCA57D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,6 +140,14 @@
 			path = config;
 			sourceTree = "<group>";
 		};
+		936AC4021CB4FC1B00D7363F /* test */ = {
+			isa = PBXGroup;
+			children = (
+				936AC4031CB4FC1B00D7363F /* test.cc */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
 		93B585CB1B4E7D76009D7C5A /* lib */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				93D7E38D1B2BCBEB006EA047 /* src */,
+				936AC4021CB4FC1B00D7363F /* test */,
 				93B585CB1B4E7D76009D7C5A /* lib */,
 				930955021A4FB1E200D09023 /* config */,
 				93F8AD7017C8B39800310877 /* products */,
@@ -187,6 +218,7 @@
 				938D14701B50969900CCA57D /* libtakram_nanovg_gl3.a */,
 				938D13E41B50928900CCA57D /* libtakram_nanovg_gles2.a */,
 				938D14941B50969B00CCA57D /* libtakram_nanovg_gles3.a */,
+				936AC40A1CB4FC4000D7363F /* nanovg_test */,
 			);
 			name = products;
 			sourceTree = "<group>";
@@ -194,6 +226,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		936AC4091CB4FC4000D7363F /* nanovg_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936AC40E1CB4FC4000D7363F /* Build configuration list for PBXNativeTarget "nanovg_test" */;
+			buildPhases = (
+				936AC4061CB4FC4000D7363F /* Sources */,
+				936AC4071CB4FC4000D7363F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				936AC4131CB4FC7000D7363F /* PBXTargetDependency */,
+			);
+			name = nanovg_test;
+			productName = nanovg_test;
+			productReference = 936AC40A1CB4FC4000D7363F /* nanovg_test */;
+			productType = "com.apple.product-type.tool";
+		};
 		938D13CF1B50928900CCA57D /* nanovg_gles2_static */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 938D13E11B50928900CCA57D /* Build configuration list for PBXNativeTarget "nanovg_gles2_static" */;
@@ -305,6 +354,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = sgss;
 				TargetAttributes = {
+					936AC4091CB4FC4000D7363F = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					938D14251B50949200CCA57D = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -328,6 +380,7 @@
 				938D14581B50969900CCA57D /* nanovg_gl3_static */,
 				938D13CF1B50928900CCA57D /* nanovg_gles2_static */,
 				938D147C1B50969B00CCA57D /* nanovg_gles3_static */,
+				936AC4091CB4FC4000D7363F /* nanovg_test */,
 			);
 		};
 /* End PBXProject section */
@@ -414,6 +467,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		936AC4061CB4FC4000D7363F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936AC4111CB4FC5D00D7363F /* test.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		938D13D01B50928900CCA57D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -476,7 +537,33 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		936AC4131CB4FC7000D7363F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 938D144B1B50969700CCA57D /* nanovg_gl3_shared */;
+			targetProxy = 936AC4121CB4FC7000D7363F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		936AC40F1CB4FC4000D7363F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955061A4FB1E200D09023 /* test.xcconfig */;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/lib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		936AC4101CB4FC4000D7363F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955061A4FB1E200D09023 /* test.xcconfig */;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/lib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		938D13E21B50928900CCA57D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 930955031A4FB1E200D09023 /* product.xcconfig */;
@@ -662,6 +749,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		936AC40E1CB4FC4000D7363F /* Build configuration list for PBXNativeTarget "nanovg_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936AC40F1CB4FC4000D7363F /* Debug */,
+				936AC4101CB4FC4000D7363F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		938D13E11B50928900CCA57D /* Build configuration list for PBXNativeTarget "nanovg_gles2_static" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
