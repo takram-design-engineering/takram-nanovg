@@ -1,18 +1,18 @@
 language: objective-c
 compiler:
-- clang
+  - clang
 git:
   submodules: false
 before_install:
-- sed -i '' 's/git@github.com:/https:\/\/github.com\//' .gitmodules
-- git submodule update --init --recursive
+  - sed -i '' 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git submodule update --init --recursive
 before_script:
-- mkdir build
-- cd build
-- cmake ..
+  - mkdir build
+  - cd build
+  - cmake ..
 script:
-- make
-- make test
+  - make
+  - make test
 notifications:
   slack:
-    secure: AapVz7yYM993QQG6yqM77UvKxWZ3BGmfbACydYbXfYPg8xNwSgCHhq6arQX/dS6WI5GlV0z1A25cfBaRTMFklybuc+baMv1DRj7lQe2ZIa0aLeVgleTniO8rWElTJcgG/wqO9fKjiarLzqom8hp3oepLO5o7kldw9bV0TuT97kYjBC+69P5k+ebrunWG6vpzhfuwXkdVwvTedwFwItxwIG/UpOMiBK3s2obSPQAL4ZRoI+rql8ouqGd+GQS3o+NBiCzmmi8W5r//ylHV/ssGsB+9QY7V44TNecxdvWAIfszaNq1oahf9mBlumkM5UagJp8vadwb6Ygc3/9723YNeniCbaDvT8POkNJmcSSDb8+HiE6UVvRp7rwZGv7tH0vNCksuNhJFZLeJmNijBrBspa85ojIAxxMScc+vZxWoZ50JLe6bW5t7vgwIo1uao/M1IPtJyX7jNmz56UCA4eErTjUUGh2QleZiRLbFw8r89ujBvZgFVkiFVTuUkXy9ULOdCwStEb5H8ZtUr/Mkn4fuHMJWEBxIH8jdb2ua/sfRWSBg0iodlT91NccI+QPobKRup+o3yeBw4ehoKXIxkwW4if17baSc3WyVtmOeI4apqwOQeE/RwPmH7Fv9o8ZnwXIA1aLW9Nc13FidHmsYbTSCSLixp7J33k9V2eSuLqHzk9bU=
+    secure: L9lb7WNt6P7Zo9R2A9VCMFJNf/KZhLIpsjl6CzWOvatUTbvwiGykytxgTp6of34zJbhHSmro37v8K9tMQOz5KSPzNQvQ+JRb0xLTQL89x+hMPfEskod0qLs7+x1AvNBN8C/lEH2w3SCcdl4KD/zHgTEQH+EhdLqJBkYFcPnx+yWrIMoxGIsLGd5ubDhLHw2K9QQlj838mTXyR8VfJMCbqJMX6tEM+Gt/5naJUgRC4fN94BvPx3LVAi4oHsAcN7J3r7NK2ATVmjtAd0dr7pAomw6YM6/vDLiYdyoKh+M+xrqE1TDYCBsT481TK7dvqRF5QLpy+qnJ2mBrsm0SNuXuqkTc2Io/59budE6NeaSU9bhlg2rZnxW1PbtSl8j+Wim1R5wMakYlTmVHvx3+GkztOK6OcwtYDQ5us43pQd35zlw7fMNwCh+39qf25AhDchVoRby6OMARUfRP2gmj6JfGpKPQhaF7skHg55YtYggYgwHWLj476qcAMCSHXJgYAHAa61D0IKjOIkdGqJmFKjipjNp7mWGm17UTPyjNl1oDPZmI+1zXjiWlD4BJ8t0Pn1QaHeZ88mFiUH9/gLEcEp9hVypeEbsDkLJEuDOf7g0RXcPG0+tToUjjLpvNZlqU6tCmcW6ecb1dWwtGxNKePv383jWUBewY2C7RmD2HGTYob4w=
