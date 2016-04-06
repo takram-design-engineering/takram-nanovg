@@ -37,11 +37,11 @@
 namespace takram {
 namespace nanovg {
 
-NVGcontext * createContext(int flags) {
+NVGcontext * Context::createContext(int flags) {
   return nvgCreateGLES2(flags);
 }
 
-void deleteContext(NVGcontext *context) {
+void Context::deleteContext(NVGcontext *context) {
   return nvgDeleteGLES2(context);
 }
 

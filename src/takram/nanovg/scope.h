@@ -37,7 +37,6 @@ namespace nanovg {
 
 class Scope final {
  public:
-  Scope();
   explicit Scope(NVGcontext *context);
   ~Scope();
 
@@ -50,12 +49,6 @@ class Scope final {
 };
 
 #pragma mark -
-
-inline Scope::Scope() : context_(Context::current()) {
-  if (context_) {
-    nvgSave(context_);
-  }
-}
 
 inline Scope::Scope(NVGcontext *context) : context_(context) {
   if (context_) {
