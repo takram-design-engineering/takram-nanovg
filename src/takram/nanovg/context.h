@@ -29,18 +29,12 @@
 #define TAKRAM_NANOVG_CONTEXT_H_
 
 #include <cassert>
-#include <stack>
 #include <utility>
 
 #include "nanovg.h"
 
-#include "takram/math/size.h"
-
 namespace takram {
 namespace nanovg {
-
-NVGcontext * createContext(int flags = int());
-void deleteContext(NVGcontext *context);
 
 #pragma mark -
 
@@ -63,7 +57,6 @@ class Context final {
 
   // Controlling frame
   void begin(int width, int height, float scale = 1.0);
-  void begin(const Size2i& size, float scale = 1.0);
   void cancel();
   void end();
 
@@ -71,11 +64,9 @@ class Context final {
   operator bool() const { return context_; }
   operator NVGcontext *() const { return context_; }
 
-  // Current context
-  static NVGcontext * current();
-
  private:
-  static std::stack<NVGcontext *>& stack();
+  static NVGcontext * createContext(int flags = int());
+  static void deleteContext(NVGcontext *context);
 
  private:
   NVGcontext *context_;
@@ -86,13 +77,10 @@ class Context final {
 inline Context::Context() : context_(nullptr) {}
 
 inline Context::~Context() {
-  if (!stack().empty() && stack().top() == context_) {
-    stack().pop();
-  }
   destroy();
 }
 
-#pragma mark Move
+#pragma mark Move semantics
 
 inline Context::Context(Context&& other) : context_(other.context_) {
   other.context_ = nullptr;
@@ -110,6 +98,7 @@ inline Context& Context::operator=(Context&& other) {
 inline void Context::init(int flags) {
   if (!context_) {
     context_ = createContext(flags);
+    assert(context_);
   }
 }
 
@@ -125,32 +114,16 @@ inline void Context::destroy() {
 inline void Context::begin(int width, int height, float scale) {
   assert(context_);
   nvgBeginFrame(context_, width, height, scale);
-  stack().push(context_);
-}
-
-inline void Context::begin(const Size2i& size, float scale) {
-  begin(size.width, size.height, scale);
 }
 
 inline void Context::cancel() {
   assert(context_);
   nvgCancelFrame(context_);
-  stack().pop();
 }
 
 inline void Context::end() {
   assert(context_);
   nvgEndFrame(context_);
-  stack().pop();
-}
-
-#pragma mark Current context
-
-inline NVGcontext * Context::current() {
-  if (stack().empty()) {
-    return nullptr;
-  }
-  return stack().top();
 }
 
 }  // namespace nanovg

@@ -40,13 +40,6 @@ extern const unsigned char version_string[];
 #include "nanovg.h"  // For convenience
 
 #include "takram/nanovg/context.h"
-#include "takram/nanovg/paint.h"
-#include "takram/nanovg/path.h"
-#include "takram/nanovg/scissor.h"
-#include "takram/nanovg/state.h"
 #include "takram/nanovg/scope.h"
-#include "takram/nanovg/style.h"
-#include "takram/nanovg/text.h"
-#include "takram/nanovg/transform.h"
 
 #endif  // TAKRAM_NANOVG_H_
