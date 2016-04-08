@@ -19,12 +19,12 @@
 		93944D9F1B5097DD00FE57FE /* nanovg.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4941B2C536C006EA047 /* nanovg.cc */; };
 		93B585681B4E65B0009D7C5A /* nanovg.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4941B2C536C006EA047 /* nanovg.cc */; };
 		93B586DF1B4E7DA4009D7C5A /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
-		93F858E71B56570F00C32E8D /* gles2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858DF1B56570F00C32E8D /* gles2.cc */; };
-		93F858F11B56570F00C32E8D /* gles3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858E11B56570F00C32E8D /* gles3.cc */; };
-		93F858FA1B56571700C32E8D /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F31B56571700C32E8D /* gl2.cc */; };
-		93F858FB1B56571700C32E8D /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F31B56571700C32E8D /* gl2.cc */; };
-		93F859041B56571700C32E8D /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F51B56571700C32E8D /* gl3.cc */; };
-		93F859051B56571700C32E8D /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F51B56571700C32E8D /* gl3.cc */; };
+		93F858E71B56570F00C32E8D /* gles2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858DF1B56570F00C32E8D /* gles2.cc */; settings = {COMPILER_FLAGS = "-w"; }; };
+		93F858F11B56570F00C32E8D /* gles3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858E11B56570F00C32E8D /* gles3.cc */; settings = {COMPILER_FLAGS = "-w"; }; };
+		93F858FA1B56571700C32E8D /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F31B56571700C32E8D /* gl2.cc */; settings = {COMPILER_FLAGS = "-w"; }; };
+		93F858FB1B56571700C32E8D /* gl2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F31B56571700C32E8D /* gl2.cc */; settings = {COMPILER_FLAGS = "-w"; }; };
+		93F859041B56571700C32E8D /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F51B56571700C32E8D /* gl3.cc */; settings = {COMPILER_FLAGS = "-w"; }; };
+		93F859051B56571700C32E8D /* gl3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93F858F51B56571700C32E8D /* gl3.cc */; settings = {COMPILER_FLAGS = "-w"; }; };
 		93F859081B56575200C32E8D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 		93F859091B56575200C32E8D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 93B586B61B4E7D77009D7C5A /* nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 /* End PBXBuildFile section */
@@ -756,6 +756,7 @@
 				936AC4101CB4FC4000D7363F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		938D13E11B50928900CCA57D /* Build configuration list for PBXNativeTarget "nanovg_gles2_static" */ = {
 			isa = XCConfigurationList;

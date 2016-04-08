@@ -56,9 +56,9 @@ class Context final {
   void destroy();
 
   // Controlling frame
-  void begin(int width, int height, float scale = 1.0);
-  void cancel();
-  void end();
+  void beginFrame(int width, int height, float scale = 1.0);
+  void cancelFrame();
+  void endFrame();
 
   // Implicit conversions
   operator bool() const { return context_; }
@@ -111,17 +111,17 @@ inline void Context::destroy() {
 
 #pragma mark Controlling frame
 
-inline void Context::begin(int width, int height, float scale) {
+inline void Context::beginFrame(int width, int height, float scale) {
   assert(context_);
   nvgBeginFrame(context_, width, height, scale);
 }
 
-inline void Context::cancel() {
+inline void Context::cancelFrame() {
   assert(context_);
   nvgCancelFrame(context_);
 }
 
-inline void Context::end() {
+inline void Context::endFrame() {
   assert(context_);
   nvgEndFrame(context_);
 }
