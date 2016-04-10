@@ -55,11 +55,6 @@ class Context final {
   void init(int flags = int());
   void destroy();
 
-  // Controlling frame
-  void beginFrame(int width, int height, float scale = 1.0);
-  void cancelFrame();
-  void endFrame();
-
   // Implicit conversions
   operator bool() const { return context_; }
   operator NVGcontext *() const { return context_; }
@@ -107,23 +102,6 @@ inline void Context::destroy() {
     deleteContext(context_);
     context_ = nullptr;
   }
-}
-
-#pragma mark Controlling frame
-
-inline void Context::beginFrame(int width, int height, float scale) {
-  assert(context_);
-  nvgBeginFrame(context_, width, height, scale);
-}
-
-inline void Context::cancelFrame() {
-  assert(context_);
-  nvgCancelFrame(context_);
-}
-
-inline void Context::endFrame() {
-  assert(context_);
-  nvgEndFrame(context_);
 }
 
 }  // namespace nanovg
